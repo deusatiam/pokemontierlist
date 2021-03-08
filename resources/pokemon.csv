@@ -2,27 +2,27 @@
 0,1,Bulbasaur,1,False,True,0
 1,2,Ivysaur,1,False,False,0
 2,3,Venusaur,1,False,False,0
-3,3,VenusaurMega Venusaur,1,False,False,0
+3,3,Venusaur (Mega),1,False,False,0
 4,4,Charmander,1,False,True,0
 5,5,Charmeleon,1,False,False,0
 6,6,Charizard,1,False,False,0
-7,6,CharizardMega Charizard X,1,False,False,0
-8,6,CharizardMega Charizard Y,1,False,False,0
+7,6,Mega Charizard X,1,False,False,0
+8,6,Mega Charizard Y,1,False,False,0
 9,7,Squirtle,1,False,True,0
 10,8,Wartortle,1,False,False,0
 11,9,Blastoise,1,False,False,0
-12,9,BlastoiseMega Blastoise,1,False,False,0
+12,9,Blastoise (Mega),1,False,False,0
 13,10,Caterpie,1,False,False,0
 14,11,Metapod,1,False,False,0
 15,12,Butterfree,1,False,False,0
 16,13,Weedle,1,False,False,0
 17,14,Kakuna,1,False,False,0
 18,15,Beedrill,1,False,False,0
-19,15,BeedrillMega Beedrill,1,False,False,0
+19,15,Beedrill (Mega),1,False,False,0
 20,16,Pidgey,1,False,False,0
 21,17,Pidgeotto,1,False,False,0
 22,18,Pidgeot,1,False,False,0
-23,18,PidgeotMega Pidgeot,1,False,False,0
+23,18,Pidgeot (Mega),1,False,False,0
 24,19,Rattata,1,False,False,0
 25,20,Raticate,1,False,False,0
 26,21,Spearow,1,False,False,0
@@ -70,7 +70,7 @@
 68,63,Abra,1,False,False,0
 69,64,Kadabra,1,False,False,0
 70,65,Alakazam,1,False,False,0
-71,65,AlakazamMega Alakazam,1,False,False,0
+71,65,Alakazam (Mega),1,False,False,0
 72,66,Machop,1,False,False,0
 73,67,Machoke,1,False,False,0
 74,68,Machamp,1,False,False,0
@@ -86,7 +86,7 @@
 84,78,Rapidash,1,False,False,0
 85,79,Slowpoke,1,False,False,0
 86,80,Slowbro,1,False,False,0
-87,80,SlowbroMega Slowbro,1,False,False,0
+87,80,Slowbro (Mega),1,False,False,0
 88,81,Magnemite,1,False,False,0
 89,82,Magneton,1,False,False,0
 90,83,Farfetch'd,1,False,False,0
@@ -101,7 +101,7 @@
 99,92,Gastly,1,False,False,0
 100,93,Haunter,1,False,False,0
 101,94,Gengar,1,False,False,0
-102,94,GengarMega Gengar,1,False,False,0
+102,94,Gengar (Mega),1,False,False,0
 103,95,Onix,1,False,False,0
 104,96,Drowzee,1,False,False,0
 105,97,Hypno,1,False,False,0
@@ -123,7 +123,7 @@
 121,113,Chansey,1,False,False,0
 122,114,Tangela,1,False,False,0
 123,115,Kangaskhan,1,False,False,0
-124,115,KangaskhanMega Kangaskhan,1,False,False,0
+124,115,Kangaskhan (Mega),1,False,False,0
 125,116,Horsea,1,False,False,0
 126,117,Seadra,1,False,False,0
 127,118,Goldeen,1,False,False,0
@@ -140,7 +140,7 @@
 138,128,Tauros,1,False,False,0
 139,129,Magikarp,1,False,False,0
 140,130,Gyarados,1,False,False,0
-141,130,GyaradosMega Gyarados,1,False,False,0
+141,130,Gyarados (Mega),1,False,False,0
 142,131,Lapras,1,False,False,0
 143,132,Ditto,1,False,False,0
 144,133,Eevee,1,False,True,0
@@ -153,7 +153,7 @@
 151,140,Kabuto,1,False,False,0
 152,141,Kabutops,1,False,False,0
 153,142,Aerodactyl,1,False,False,0
-154,142,AerodactylMega Aerodactyl,1,False,False,0
+154,142,Aerodactyl (Mega),1,False,False,0
 155,143,Snorlax,1,False,False,0
 156,144,Articuno,1,True,False,0
 157,145,Zapdos,1,True,False,0
@@ -162,8 +162,8 @@
 160,148,Dragonair,1,False,False,0
 161,149,Dragonite,1,False,False,0
 162,150,Mewtwo,1,True,False,0
-163,150,MewtwoMega Mewtwo X,1,True,False,0
-164,150,MewtwoMega Mewtwo Y,1,True,False,0
+163,150,Mega Mewtwo X,1,True,False,0
+164,150,Mega Mewtwo Y,1,True,False,0
 165,151,Mew,1,False,False,0
 166,152,Chikorita,2,False,True,0
 167,153,Bayleef,2,False,False,0
@@ -195,7 +195,7 @@
 193,179,Mareep,2,False,False,0
 194,180,Flaaffy,2,False,False,0
 195,181,Ampharos,2,False,False,0
-196,181,AmpharosMega Ampharos,2,False,False,0
+196,181,Ampharos (Mega),2,False,False,0
 197,182,Bellossom,2,False,False,0
 198,183,Marill,2,False,False,0
 199,184,Azumarill,2,False,False,0
@@ -223,15 +223,15 @@
 221,206,Dunsparce,2,False,False,0
 222,207,Gligar,2,False,False,0
 223,208,Steelix,2,False,False,0
-224,208,SteelixMega Steelix,2,False,False,0
+224,208,Steelix (Mega),2,False,False,0
 225,209,Snubbull,2,False,False,0
 226,210,Granbull,2,False,False,0
 227,211,Qwilfish,2,False,False,0
 228,212,Scizor,2,False,False,0
-229,212,ScizorMega Scizor,2,False,False,0
+229,212,Scizor (Mega),2,False,False,0
 230,213,Shuckle,2,False,False,0
 231,214,Heracross,2,False,False,0
-232,214,HeracrossMega Heracross,2,False,False,0
+232,214,Heracross (Mega),2,False,False,0
 233,215,Sneasel,2,False,False,0
 234,216,Teddiursa,2,False,False,0
 235,217,Ursaring,2,False,False,0
@@ -247,7 +247,7 @@
 245,227,Skarmory,2,False,False,0
 246,228,Houndour,2,False,False,0
 247,229,Houndoom,2,False,False,0
-248,229,HoundoomMega Houndoom,2,False,False,0
+248,229,Houndoom (Mega),2,False,False,0
 249,230,Kingdra,2,False,False,0
 250,231,Phanpy,2,False,False,0
 251,232,Donphan,2,False,False,0
@@ -267,22 +267,22 @@
 265,246,Larvitar,2,False,False,0
 266,247,Pupitar,2,False,False,0
 267,248,Tyranitar,2,False,False,0
-268,248,TyranitarMega Tyranitar,2,False,False,0
+268,248,Tyranitar (Mega),2,False,False,0
 269,249,Lugia,2,True,False,0
 270,250,Ho-oh,2,True,False,0
 271,251,Celebi,2,False,False,0
 272,252,Treecko,3,False,True,0
 273,253,Grovyle,3,False,False,0
 274,254,Sceptile,3,False,False,0
-275,254,SceptileMega Sceptile,3,False,False,0
+275,254,Sceptile (Mega),3,False,False,0
 276,255,Torchic,3,False,True,0
 277,256,Combusken,3,False,False,0
 278,257,Blaziken,3,False,False,0
-279,257,BlazikenMega Blaziken,3,False,False,0
+279,257,Blaziken (Mega),3,False,False,0
 280,258,Mudkip,3,False,True,0
 281,259,Marshtomp,3,False,False,0
 282,260,Swampert,3,False,False,0
-283,260,SwampertMega Swampert,3,False,False,0
+283,260,Swampert (Mega),3,False,False,0
 284,261,Poochyena,3,False,False,0
 285,262,Mightyena,3,False,False,0
 286,263,Zigzagoon,3,False,False,0
@@ -305,7 +305,7 @@
 303,280,Ralts,3,False,False,0
 304,281,Kirlia,3,False,False,0
 305,282,Gardevoir,3,False,False,0
-306,282,GardevoirMega Gardevoir,3,False,False,0
+306,282,Gardevoir (Mega),3,False,False,0
 307,283,Surskit,3,False,False,0
 308,284,Masquerain,3,False,False,0
 309,285,Shroomish,3,False,False,0
@@ -326,19 +326,19 @@
 324,300,Skitty,3,False,False,0
 325,301,Delcatty,3,False,False,0
 326,302,Sableye,3,False,False,0
-327,302,SableyeMega Sableye,3,False,False,0
+327,302,Sableye (Mega),3,False,False,0
 328,303,Mawile,3,False,False,0
-329,303,MawileMega Mawile,3,False,False,0
+329,303,MawileM (Mega),3,False,False,0
 330,304,Aron,3,False,False,0
 331,305,Lairon,3,False,False,0
 332,306,Aggron,3,False,False,0
-333,306,AggronMega Aggron,3,False,False,0
+333,306,Aggron (Mega),3,False,False,0
 334,307,Meditite,3,False,False,0
 335,308,Medicham,3,False,False,0
-336,308,MedichamMega Medicham,3,False,False,0
+336,308,Medicham (Mega),3,False,False,0
 337,309,Electrike,3,False,False,0
 338,310,Manectric,3,False,False,0
-339,310,ManectricMega Manectric,3,False,False,0
+339,310,Manectric (Mega),3,False,False,0
 340,311,Plusle,3,False,False,0
 341,312,Minun,3,False,False,0
 342,313,Volbeat,3,False,False,0
@@ -348,12 +348,12 @@
 346,317,Swalot,3,False,False,0
 347,318,Carvanha,3,False,False,0
 348,319,Sharpedo,3,False,False,0
-349,319,SharpedoMega Sharpedo,3,False,False,0
+349,319,Sharpedo (Mega),3,False,False,0
 350,320,Wailmer,3,False,False,0
 351,321,Wailord,3,False,False,0
 352,322,Numel,3,False,False,0
 353,323,Camerupt,3,False,False,0
-354,323,CameruptMega Camerupt,3,False,False,0
+354,323,Camerupt (Mega),3,False,False,0
 355,324,Torkoal,3,False,False,0
 356,325,Spoink,3,False,False,0
 357,326,Grumpig,3,False,False,0
@@ -365,7 +365,7 @@
 363,332,Cacturne,3,False,False,0
 364,333,Swablu,3,False,False,0
 365,334,Altaria,3,False,False,0
-366,334,AltariaMega Altaria,3,False,False,0
+366,334,Altaria (Mega),3,False,False,0
 367,335,Zangoose,3,False,False,0
 368,336,Seviper,3,False,False,0
 369,337,Lunatone,3,False,False,0
@@ -382,21 +382,24 @@
 380,348,Armaldo,3,False,False,0
 381,349,Feebas,3,False,False,0
 382,350,Milotic,3,False,False,0
-383,351,Castform,3,False,False,0
+,351,Castform (Normal),3,False,False,0
+,351,Castform (Rainy),3,False,False,0
+,351,Castform (Snowy),3,False,False,0
+383,351,Castform (Sunny),3,False,False,0
 384,352,Kecleon,3,False,False,0
 385,353,Shuppet,3,False,False,0
 386,354,Banette,3,False,False,0
-387,354,BanetteMega Banette,3,False,False,0
+387,354,Banette (Mega),3,False,False,0
 388,355,Duskull,3,False,False,0
 389,356,Dusclops,3,False,False,0
 390,357,Tropius,3,False,False,0
 391,358,Chimecho,3,False,False,0
 392,359,Absol,3,False,False,0
-393,359,AbsolMega Absol,3,False,False,0
+393,359,Absol (Mega),3,False,False,0
 394,360,Wynaut,3,False,False,0
 395,361,Snorunt,3,False,False,0
 396,362,Glalie,3,False,False,0
-397,362,GlalieMega Glalie,3,False,False,0
+397,362,Glalie (Mega),3,False,False,0
 398,363,Spheal,3,False,False,0
 399,364,Sealeo,3,False,False,0
 400,365,Walrein,3,False,False,0
@@ -408,29 +411,29 @@
 406,371,Bagon,3,False,False,0
 407,372,Shelgon,3,False,False,0
 408,373,Salamence,3,False,False,0
-409,373,SalamenceMega Salamence,3,False,False,0
+409,373,Salamence (Mega),3,False,False,0
 410,374,Beldum,3,False,False,0
 411,375,Metang,3,False,False,0
 412,376,Metagross,3,False,False,0
-413,376,MetagrossMega Metagross,3,False,False,0
+413,376,Metagross (Mega),3,False,False,0
 414,377,Regirock,3,True,False,0
 415,378,Regice,3,True,False,0
 416,379,Registeel,3,True,False,0
 417,380,Latias,3,True,False,0
-418,380,LatiasMega Latias,3,True,False,0
+418,380,Latias (Mega),3,True,False,0
 419,381,Latios,3,True,False,0
-420,381,LatiosMega Latios,3,True,False,0
+420,381,Latios (Mega),3,True,False,0
 421,382,Kyogre,3,True,False,0
-422,382,KyogrePrimal Kyogre,3,True,False,0
+422,382,Primal Kyogre,3,True,False,0
 423,383,Groudon,3,True,False,0
-424,383,GroudonPrimal Groudon,3,True,False,0
+424,383,Primal Groudon,3,True,False,0
 425,384,Rayquaza,3,True,False,0
-426,384,RayquazaMega Rayquaza,3,True,False,0
+426,384,Rayquaza (Mega),3,True,False,0
 427,385,Jirachi,3,True,False,0
-428,386,DeoxysNormal Forme,3,True,False,0
-429,386,DeoxysAttack Forme,3,True,False,0
-430,386,DeoxysDefense Forme,3,True,False,0
-431,386,DeoxysSpeed Forme,3,True,False,0
+428,386,Deoxys (Normal Forme),3,True,False,0
+429,386,Deoxys (Attack Forme),3,True,False,0
+430,386,Deoxys (Defense Forme),3,True,False,0
+431,386,Deoxys (Speed Forme),3,True,False,0
 432,387,Turtwig,4,False,True,0
 433,388,Grotle,4,False,False,0
 434,389,Torterra,4,False,False,0
@@ -456,10 +459,12 @@
 454,409,Rampardos,4,False,False,0
 455,410,Shieldon,4,False,False,0
 456,411,Bastiodon,4,False,False,0
-457,412,Burmy,4,False,False,0
-458,413,WormadamPlant Cloak,4,False,False,0
-459,413,WormadamSandy Cloak,4,False,False,0
-460,413,WormadamTrash Cloak,4,False,False,0
+457,412,Burmy (Plant Cloak),4,False,False,0
+,412,Burmy (Sandy Cloak),4,False,False,0
+,412,Burmy (Trash Cloak),4,False,False,0
+458,413,Wormadam (Plant Cloak),4,False,False,0
+459,413,Wormadam (Sandy Cloak),4,False,False,0
+460,413,Wormadam (Trash Cloak),4,False,False,0
 461,414,Mothim,4,False,False,0
 462,415,Combee,4,False,False,0
 463,416,Vespiquen,4,False,False,0
@@ -467,15 +472,18 @@
 465,418,Buizel,4,False,False,0
 466,419,Floatzel,4,False,False,0
 467,420,Cherubi,4,False,False,0
-468,421,Cherrim,4,False,False,0
-469,422,Shellos,4,False,False,0
-470,423,Gastrodon,4,False,False,0
+,421,Cherrim (Overcast Form),4,False,False,0
+468,421,Cherrim (Sunshine Form),4,False,False,0
+,422,Shellos (East),4,False,False,0
+469,422,Shellos (West),4,False,False,0
+,423,Gastrodon (East),4,False,False,0
+470,423,Gastrodon (West),4,False,False,0
 471,424,Ambipom,4,False,False,0
 472,425,Drifloon,4,False,False,0
 473,426,Drifblim,4,False,False,0
 474,427,Buneary,4,False,False,0
 475,428,Lopunny,4,False,False,0
-476,428,LopunnyMega Lopunny,4,False,False,0
+476,428,Lopunny (Mega),4,False,False,0
 477,429,Mismagius,4,False,False,0
 478,430,Honchkrow,4,False,False,0
 479,431,Glameow,4,False,False,0
@@ -493,11 +501,11 @@
 491,443,Gible,4,False,False,0
 492,444,Gabite,4,False,False,0
 493,445,Garchomp,4,False,False,0
-494,445,GarchompMega Garchomp,4,False,False,0
+494,445,Garchomp (Mega),4,False,False,0
 495,446,Munchlax,4,False,False,0
 496,447,Riolu,4,False,False,0
 497,448,Lucario,4,False,False,0
-498,448,LucarioMega Lucario,4,False,False,0
+498,448,Lucario (Mega),4,False,False,0
 499,449,Hippopotas,4,False,False,0
 500,450,Hippowdon,4,False,False,0
 501,451,Skorupi,4,False,False,0
@@ -510,7 +518,7 @@
 508,458,Mantyke,4,False,False,0
 509,459,Snover,4,False,False,0
 510,460,Abomasnow,4,False,False,0
-511,460,AbomasnowMega Abomasnow,4,False,False,0
+511,460,Abomasnow (Mega),4,False,False,0
 512,461,Weavile,4,False,False,0
 513,462,Magnezone,4,False,False,0
 514,463,Lickilicky,4,False,False,0
@@ -526,16 +534,16 @@
 524,473,Mamoswine,4,False,False,0
 525,474,Porygon-Z,4,False,False,0
 526,475,Gallade,4,False,False,0
-527,475,GalladeMega Gallade,4,False,False,0
+527,475,Gallade (Mega),4,False,False,0
 528,476,Probopass,4,False,False,0
 529,477,Dusknoir,4,False,False,0
 530,478,Froslass,4,False,False,0
 531,479,Rotom,4,False,False,0
-532,479,RotomHeat Rotom,4,False,False,0
-533,479,RotomWash Rotom,4,False,False,0
-534,479,RotomFrost Rotom,4,False,False,0
-535,479,RotomFan Rotom,4,False,False,0
-536,479,RotomMow Rotom,4,False,False,0
+532,479,Heat Rotom,4,False,False,0
+533,479,Wash Rotom,4,False,False,0
+534,479,Frost Rotom,4,False,False,0
+535,479,Fan Rotom,4,False,False,0
+536,479,Mow Rotom,4,False,False,0
 537,480,Uxie,4,True,False,0
 538,481,Mesprit,4,True,False,0
 539,482,Azelf,4,True,False,0
@@ -543,14 +551,14 @@
 541,484,Palkia,4,True,False,0
 542,485,Heatran,4,True,False,0
 543,486,Regigigas,4,True,False,0
-544,487,GiratinaAltered Forme,4,True,False,0
-545,487,GiratinaOrigin Forme,4,True,False,0
+544,487,Giratina (Altered Forme),4,True,False,0
+545,487,Giratina (Origin Forme),4,True,False,0
 546,488,Cresselia,4,False,False,0
 547,489,Phione,4,False,False,0
 548,490,Manaphy,4,False,False,0
 549,491,Darkrai,4,True,False,0
-550,492,ShayminLand Forme,4,True,False,0
-551,492,ShayminSky Forme,4,True,False,0
+550,492,Shaymin (Land Forme),4,True,False,0
+551,492,Shaymin (Sky Forme),4,True,False,0
 552,493,Arceus,4,True,False,0
 553,494,Victini,5,True,False,0
 554,495,Snivy,5,False,True,0
@@ -590,7 +598,7 @@
 588,529,Drilbur,5,False,False,0
 589,530,Excadrill,5,False,False,0
 590,531,Audino,5,False,False,0
-591,531,AudinoMega Audino,5,False,False,0
+591,531,Audino (Mega),5,False,False,0
 592,532,Timburr,5,False,False,0
 593,533,Gurdurr,5,False,False,0
 594,534,Conkeldurr,5,False,False,0
@@ -609,13 +617,13 @@
 607,547,Whimsicott,5,False,False,0
 608,548,Petilil,5,False,False,0
 609,549,Lilligant,5,False,False,0
-610,550,Basculin,5,False,False,0
+,550,Basculin (Blue-Striped),5,False,False,0
+610,550,Basculin (Red-Striped),5,False,False,0
 611,551,Sandile,5,False,False,0
 612,552,Krokorok,5,False,False,0
 613,553,Krookodile,5,False,False,0
 614,554,Darumaka,5,False,False,0
-615,555,DarmanitanStandard Mode,5,False,False,0
-616,555,DarmanitanZen Mode,5,False,False,0
+615,555,Darmanitan,5,False,False,0
 617,556,Maractus,5,False,False,0
 618,557,Dwebble,5,False,False,0
 619,558,Crustle,5,False,False,0
@@ -645,8 +653,14 @@
 643,582,Vanillite,5,False,False,0
 644,583,Vanillish,5,False,False,0
 645,584,Vanilluxe,5,False,False,0
-646,585,Deerling,5,False,False,0
-647,586,Sawsbuck,5,False,False,0
+,585,Deerling (Autumn Form),5,False,False,0
+,585,Deerling (Spring Form),5,False,False,0
+,585,Deerling (Summer Form),5,False,False,0
+646,585,Deerling (Winter Form),5,False,False,0
+,586,Sawsbuck (Autumn Form),5,False,False,0
+,586,Sawsbuck (Spring Form),5,False,False,0
+,586,Sawsbuck (Summer Form),5,False,False,0
+647,586,Sawsbuck (Winter Form),5,False,False,0
 648,587,Emolga,5,False,False,0
 649,588,Karrablast,5,False,False,0
 650,589,Escavalier,5,False,False,0
@@ -701,21 +715,21 @@
 699,638,Cobalion,5,True,False,0
 700,639,Terrakion,5,True,False,0
 701,640,Virizion,5,True,False,0
-702,641,TornadusIncarnate Forme,5,True,False,0
-703,641,TornadusTherian Forme,5,True,False,0
-704,642,ThundurusIncarnate Forme,5,True,False,0
-705,642,ThundurusTherian Forme,5,True,False,0
+702,641,Tornadus (Incarnate Forme),5,True,False,0
+703,641,Tornadus (Therian Forme),5,True,False,0
+704,642,Thundurus (Incarnate Forme),5,True,False,0
+705,642,Thundurus (Therian Forme),5,True,False,0
 706,643,Reshiram,5,True,False,0
 707,644,Zekrom,5,True,False,0
-708,645,LandorusIncarnate Forme,5,True,False,0
-709,645,LandorusTherian Forme,5,True,False,0
+708,645,Landorus (Incarnate Forme),5,True,False,0
+709,645,Landorus (Therian Forme),5,True,False,0
 710,646,Kyurem,5,True,False,0
-711,646,KyuremBlack Kyurem,5,True,False,0
-712,646,KyuremWhite Kyurem,5,True,False,0
-713,647,KeldeoOrdinary Forme,5,False,False,0
-714,647,KeldeoResolute Forme,5,False,False,0
-715,648,MeloettaAria Forme,5,False,False,0
-716,648,MeloettaPirouette Forme,5,False,False,0
+711,646,Black Kyurem,5,True,False,0
+712,646,White Kyurem,5,True,False,0
+713,647,Keldeo (Ordinary Forme),5,False,False,0
+714,647,Keldeo (Resolute Forme),5,False,False,0
+715,648,Meloetta (Aria Forme),5,False,False,0
+716,648,Meloetta (Pirouette Forme),5,False,False,0
 717,649,Genesect,5,False,False,0
 718,650,Chespin,6,False,True,0
 719,651,Quilladin,6,False,False,0
@@ -733,7 +747,26 @@
 731,663,Talonflame,6,False,False,0
 732,664,Scatterbug,6,False,False,0
 733,665,Spewpa,6,False,False,0
-734,666,Vivillon,6,False,False,0
+,666,Vivillon (Archipelago Pattern),6,False,False,0
+,666,Vivillon (Continental Pattern),6,False,False,0
+,666,Vivillon (Elegant Pattern),6,False,False,0
+,666,Vivillon (Fancy Pattern),6,False,False,0
+,666,Vivillon (Garden Pattern),6,False,False,0
+,666,Vivillon (High Plains Pattern),6,False,False,0
+,666,Vivillon (Icy Snow Pattern),6,False,False,0
+,666,Vivillon (Jungle Pattern),6,False,False,0
+,666,Vivillon (Marine Pattern),6,False,False,0
+,666,Vivillon (Meadow Pattern),6,False,False,0
+,666,Vivillon (Modern Pattern),6,False,False,0
+,666,Vivillon (Monsoon Pattern),6,False,False,0
+,666,Vivillon (Ocean Pattern),6,False,False,0
+,666,Vivillon (Poke Ball Pattern),6,False,False,0
+,666,Vivillon (Polar Pattern),6,False,False,0
+,666,Vivillon (River Pattern),6,False,False,0
+,666,Vivillon (Sandstorm Pattern),6,False,False,0
+,666,Vivillon (Savanna Pattern),6,False,False,0
+,666,Vivillon (Sun Pattern),6,False,False,0
+734,666,Vivillon (Tundra Pattern),6,False,False,0
 735,667,Litleo,6,False,False,0
 736,668,Pyroar,6,False,False,0
 737,669,Flabébé,6,False,False,0
@@ -743,14 +776,17 @@
 741,673,Gogoat,6,False,False,0
 742,674,Pancham,6,False,False,0
 743,675,Pangoro,6,False,False,0
+,676,Furfrou (Diamond Trim),6,False,False,0
+,676,Furfrou (Heart Trim),6,False,False,0
+,676,Furfrou (Star Trim),6,False,False,0
 744,676,Furfrou,6,False,False,0
 745,677,Espurr,6,False,False,0
-746,678,MeowsticMale,6,False,False,0
-747,678,MeowsticFemale,6,False,False,0
+746,678,Meowstic (Male),6,False,False,0
+747,678,Meowstic (Female),6,False,False,0
 748,679,Honedge,6,False,False,0
 749,680,Doublade,6,False,False,0
-750,681,AegislashBlade Forme,6,False,False,0
-751,681,AegislashShield Forme,6,False,False,0
+750,681,Aegislash (Blade Forme),6,False,False,0
+751,681,Aegislash (Shield Forme),6,False,False,0
 752,682,Spritzee,6,False,False,0
 753,683,Aromatisse,6,False,False,0
 754,684,Swirlix,6,False,False,0
@@ -779,23 +815,19 @@
 777,707,Klefki,6,False,False,0
 778,708,Phantump,6,False,False,0
 779,709,Trevenant,6,False,False,0
-780,710,PumpkabooAverage Size,6,False,False,0
-781,710,PumpkabooSmall Size,6,False,False,0
-782,710,PumpkabooLarge Size,6,False,False,0
-783,710,PumpkabooSuper Size,6,False,False,0
-784,711,GourgeistAverage Size,6,False,False,0
-785,711,GourgeistSmall Size,6,False,False,0
-786,711,GourgeistLarge Size,6,False,False,0
-787,711,GourgeistSuper Size,6,False,False,0
+780,710,Pumpkaboo,6,False,False,0
+784,711,Gourgeist,6,False,False,0
 788,712,Bergmite,6,False,False,0
 789,713,Avalugg,6,False,False,0
 790,714,Noibat,6,False,False,0
 791,715,Noivern,6,False,False,0
 792,716,Xerneas,6,True,False,0
 793,717,Yveltal,6,True,False,0
-794,718,Zygarde50% Forme,6,True,False,0
+,718,Zygarde (10% Forme),6,True,False,0
+794,718,Zygarde (50% Forme),6,True,False,0
+,715,Zygarde (Complete Forme),6,True,False,0
 795,719,Diancie,6,True,False,0
-796,719,DiancieMega Diancie,6,True,False,0
-797,720,HoopaHoopa Confined,6,True,False,0
-798,720,HoopaHoopa Unbound,6,True,False,0
+796,719,Diancie (Mega),6,True,False,0
+797,720,Hoopa Confined,6,True,False,0
+798,720,Hoopa Unbound,6,True,False,0
 799,721,Volcanion,6,True,False,0
