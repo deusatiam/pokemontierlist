@@ -24,15 +24,20 @@ id,#,Name,Generation,Legendary,Starter,Score
 22,18,Pidgeot,1,False,False,0
 23,18,Pidgeot (Mega),1,False,False,0
 24,19,Rattata,1,False,False,0
+24,19,Alolan Rattata,7,False,False,0
 25,20,Raticate,1,False,False,0
+25,20,Alolan Raticate,7,False,False,0
 26,21,Spearow,1,False,False,0
 27,22,Fearow,1,False,False,0
 28,23,Ekans,1,False,False,0
 29,24,Arbok,1,False,False,0
 30,25,Pikachu,1,False,True,0
 31,26,Raichu,1,False,False,0
+31,26,Alolan Raichu,7,False,False,0
 32,27,Sandshrew,1,False,False,0
+32,27,Alolan Sandshrew,7,False,False,0
 33,28,Sandslash,1,False,False,0
+33,28,Alolan Sandslash,7,False,False,0
 34,29,Nidoran♀,1,False,False,0
 35,30,Nidorina,1,False,False,0
 36,31,Nidoqueen,1,False,False,0
@@ -42,7 +47,9 @@ id,#,Name,Generation,Legendary,Starter,Score
 40,35,Clefairy,1,False,False,0
 41,36,Clefable,1,False,False,0
 42,37,Vulpix,1,False,False,0
+42,37,Alolan Vulpix,7,False,False,0
 43,38,Ninetales,1,False,False,0
+43,38,Alolan Ninetales,7,False,False,0
 44,39,Jigglypuff,1,False,False,0
 45,40,Wigglytuff,1,False,False,0
 46,41,Zubat,1,False,False,0
@@ -55,9 +62,13 @@ id,#,Name,Generation,Legendary,Starter,Score
 53,48,Venonat,1,False,False,0
 54,49,Venomoth,1,False,False,0
 55,50,Diglett,1,False,False,0
+55,50,Alolan Diglett,7,False,False,0
 56,51,Dugtrio,1,False,False,0
+56,51,Alolan Dugtrio,7,False,False,0
 57,52,Meowth,1,False,False,0
+57,52,Alolan Meowth,7,False,False,0
 58,53,Persian,1,False,False,0
+58,53,Alolan Persian,7,False,False,0
 59,54,Psyduck,1,False,False,0
 60,55,Golduck,1,False,False,0
 61,56,Mankey,1,False,False,0
@@ -80,8 +91,11 @@ id,#,Name,Generation,Legendary,Starter,Score
 78,72,Tentacool,1,False,False,0
 79,73,Tentacruel,1,False,False,0
 80,74,Geodude,1,False,False,0
+80,74,Alolan Geodude,7,False,False,0
 81,75,Graveler,1,False,False,0
+81,75,Alolan Graveler,7,False,False,0
 82,76,Golem,1,False,False,0
+82,76,Alolan Golem,7,False,False,0
 83,77,Ponyta,1,False,False,0
 84,78,Rapidash,1,False,False,0
 85,79,Slowpoke,1,False,False,0
@@ -95,7 +109,9 @@ id,#,Name,Generation,Legendary,Starter,Score
 93,86,Seel,1,False,False,0
 94,87,Dewgong,1,False,False,0
 95,88,Grimer,1,False,False,0
+95,88,Alolan Grimer,7,False,False,0
 96,89,Muk,1,False,False,0
+96,89,Alolan Muk,7,False,False,0
 97,90,Shellder,1,False,False,0
 98,91,Cloyster,1,False,False,0
 99,92,Gastly,1,False,False,0
@@ -111,8 +127,10 @@ id,#,Name,Generation,Legendary,Starter,Score
 109,101,Electrode,1,False,False,0
 110,102,Exeggcute,1,False,False,0
 111,103,Exeggutor,1,False,False,0
+111,103,Alolan Exeggutor,7,False,False,0
 112,104,Cubone,1,False,False,0
 113,105,Marowak,1,False,False,0
+113,105,Alolan Marowak,7,False,False,0
 114,106,Hitmonlee,1,False,False,0
 115,107,Hitmonchan,1,False,False,0
 116,108,Lickitung,1,False,False,0
