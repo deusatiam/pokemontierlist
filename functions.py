@@ -6,14 +6,17 @@ from random import randrange
 
 
 ### Variables ###
-base_filepath = "resources/starter9.csv"
+# The filepath that the functions will default to in case they're not defined
+default_filepath = "resources/starter9.csv"
+# The percentage of low-voted pokemon that will be potentially selected from
+# High values increase selection randomness, low values promote low-voted pokemon to be selected
 selection_ratio = 0.2
 
 
 
 ### Functions ###
 # This function sorts a given csv-file by either votes or score
-def sort_csv(csv = base_filepath, type = "Votes"):
+def sort_csv(csv = default_filepath, type = "Votes"):
     df = pd.read_csv(csv)
 
     # If sorting by votes, sort in ascending order
@@ -34,7 +37,7 @@ def sort_csv(csv = base_filepath, type = "Votes"):
 
 
 # This function generates a pair of pokemon id's, prioritizing pokemon with low votes
-def get_pair(csv = base_filepath):
+def get_pair(csv = default_filepath):
     df = pd.read_csv(csv)
 
     # Prioritize pokemon with less votes by sorting
@@ -62,7 +65,7 @@ def get_pair(csv = base_filepath):
 
 # This function votes for pokemon a, adding a vote to both pokemon and adding and 
 # subtracting from their scores respectively
-def vote(a, b, csv = base_filepath):
+def vote(a, b, csv = default_filepath):
     df = pd.read_csv(csv)
 
     # Find the indices of the rows corresponding to the given pokemon id
@@ -83,7 +86,7 @@ def vote(a, b, csv = base_filepath):
 
 
 # This function resets the scores and votes of each pokemon
-def reset(csv = base_filepath):
+def reset(csv = default_filepath):
     df = pd.read_csv(csv)
     df['Votes'] = 0
     df['Score'] = 0
