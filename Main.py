@@ -9,6 +9,3 @@ bulba = df.iloc(0)[0]
 
 print(bulba['Icon'])
 print(bulba['Sugimori'])
-
-
-### 
