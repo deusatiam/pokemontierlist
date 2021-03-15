@@ -81,6 +81,9 @@ def vote(a, b, csv = default_filepath):
     df.loc[b_index, 'Score'] -= 1
 
     df.to_csv(csv,index=False)
+
+    # Debugging printout
+    print(df[df['Id'] == a].iloc[0][2] + " wins vs " + df[df['Id'] == b].iloc[0][2])
     return
 
 
