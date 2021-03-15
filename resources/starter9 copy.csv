@@ -1,0 +1,10 @@
+Id,Dex,Name,Score,Votes,Sugimori,Icon
+0,#001,Bulbasaur,0,1,resources/Starter9/sugimori/1.png,resources/Starter9/icon/1.png
+1,#002,Ivysaur,0,3,resources/Starter9/sugimori/2.png,resources/Starter9/icon/2.png
+2,#003,Venusaur,0,0,resources/Starter9/sugimori/3.png,resources/Starter9/icon/3.png
+3,#004,Charmander,0,4,resources/Starter9/sugimori/4.png,resources/Starter9/icon/4.png
+4,#005,Charmeleon,0,0,resources/Starter9/sugimori/5.png,resources/Starter9/icon/5.png
+5,#006,Charizard,0,3,resources/Starter9/sugimori/6.png,resources/Starter9/icon/6.png
+6,#007,Squirtle,0,0,resources/Starter9/sugimori/7.png,resources/Starter9/icon/7.png
+7,#008,Wartortle,0,3,resources/Starter9/sugimori/8.png,resources/Starter9/icon/8.png
+8,#009,Blastoise,0,0,resources/Starter9/sugimori/9.png,resources/Starter9/icon/9.png
