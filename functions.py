@@ -102,6 +102,13 @@ def get_icon(id, csv = default_filepath):
 
 
 
+# This function gets the name of a pokemon by it's id
+def get_name(id, csv = default_filepath):
+    df = pd.read_csv(csv)
+    return df[df['Id'] == id].iloc[0]['Name']
+
+
+
 # This function resets the scores and votes of each pokemon
 def reset(csv = default_filepath):
     df = pd.read_csv(csv)
