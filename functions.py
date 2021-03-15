@@ -1,9 +1,19 @@
+### Imports ###
 import numpy as np 
 import pandas as pd 
 from random import randrange
 
+
+
+### Variables ###
+base_filepath = "resources/starter9.csv"
+selection_ratio = 0.2
+
+
+
+### Functions ###
 # This function sorts a given csv-file by either votes or score
-def sort_csv(csv = "resources/starter9.csv", type = "Votes"):
+def sort_csv(csv = base_filepath, type = "Votes"):
     df = pd.read_csv(csv)
 
     # If sorting by votes, sort in ascending order
@@ -16,7 +26,7 @@ def sort_csv(csv = "resources/starter9.csv", type = "Votes"):
 
     # Error message
     else:                       
-        print("Type in sortCsv incorrect.")
+        print("Type in sort_csv incorrect.")
 
     df.to_csv(csv,index=False) 
     return
@@ -24,14 +34,14 @@ def sort_csv(csv = "resources/starter9.csv", type = "Votes"):
 
 
 # This function generates a pair of pokemon id's, prioritizing pokemon with low votes
-def get_pair(csv = "resources/starter9.csv"):
+def get_pair(csv = base_filepath):
     df = pd.read_csv(csv)
 
     # Prioritize pokemon with less votes by sorting
     sort_csv(csv, "Votes")
 
     # Find the highest index to choose from for voting
-    limit = int(df.shape[0]*0.2)
+    limit = int(df.shape[0]*selection_ratio)
 
     # Minimum value for the limit for safety purposes
     if (limit < 5): limit = 5
@@ -52,7 +62,7 @@ def get_pair(csv = "resources/starter9.csv"):
 
 # This function votes for pokemon a, adding a vote to both pokemon and adding and 
 # subtracting from their scores respectively
-def vote(a, b, csv = "resources/starter9.csv"):
+def vote(a, b, csv = base_filepath):
     df = pd.read_csv(csv)
 
     # Find the indices of the rows corresponding to the given pokemon id
@@ -73,7 +83,7 @@ def vote(a, b, csv = "resources/starter9.csv"):
 
 
 # This function resets the scores and votes of each pokemon
-def reset(csv = "resources/starter9.csv"):
+def reset(csv = base_filepath):
     df = pd.read_csv(csv)
     df['Votes'] = 0
     df['Score'] = 0
