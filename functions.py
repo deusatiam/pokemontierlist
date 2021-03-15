@@ -7,7 +7,7 @@ from random import randrange
 
 ### Variables ###
 # The filepath that the functions will default to in case they're not defined
-default_filepath = "resources/starter9.csv"
+default_filepath = default_filepath
 # The percentage of low-voted pokemon that will be potentially selected from
 # High values increase selection randomness, low values promote low-voted pokemon to be selected
 selection_ratio = 0.2
@@ -82,6 +82,20 @@ def vote(a, b, csv = default_filepath):
 
     df.to_csv(csv,index=False)
     return
+
+
+
+# This function returns the sugimori filepath from a pokemon id
+def get_sugimori(id, csv = default_filepath):
+    df = pd.read_csv(csv)
+    return df[df['Id'] == id].iloc[0]['Sugimori']
+
+
+
+# This function returns the icon filepath from a pokemon id
+def get_icon(id, csv = default_filepath):
+    df = pd.read_csv(csv)
+    return df[df['Id'] == id].iloc[0]['Icon']
 
 
 
