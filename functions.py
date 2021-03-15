@@ -16,6 +16,7 @@ selection_ratio = 0.2
 
 ### Functions ###
 # This function sorts a given csv-file by either votes or score
+# type can either be "Votes" or "Score"
 def sort_csv(type = "Votes", csv = default_filepath):
     df = pd.read_csv(csv)
 
