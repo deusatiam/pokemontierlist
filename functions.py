@@ -10,7 +10,10 @@ from random import randrange
 default_filepath = "resources/starter9.csv"
 # The percentage of low-voted pokemon that will be potentially selected from
 # High values increase selection randomness, low values promote low-voted pokemon to be selected
-selection_ratio = 0.2
+selection_ratio = 0.2    
+# The ratios for the amounts of pokemon per tier.
+# There must be 6 numbers and they must add up to 1
+tier_ratios = [0.05,0.15,0.3,0.3,0.15,0.05]
 
 
 
@@ -116,3 +119,46 @@ def reset(csv = default_filepath):
     df['Votes'] = 0
     df['Score'] = 0
     return
+
+
+
+# This function returns the icon addresses for the tierlist
+# Each tier has it's own subarray and the icons are in descending score order
+def build_list(csv = "resources/starter9.csv"):
+    # Sort the csv by score
+    sort_csv(csv, "Score")
+    df = pd.read_csv(csv)
+    length = df.shape[0]
+    tier_nums = []
+
+    # Calculate the amount of pokemon per tier
+    # The number of pokemon is going to be variable throughout development, so we'll 
+    # calculate the number of pokemon in each tier each time the page is loaded for now
+    for ratio in tier_ratios:
+        # Make sure there's at least one pokemon per tier
+        num = max(1,int(length*ratio))
+        tier_nums.append(int(num))
+
+    # Double check that the total number of pokemon is correct
+    tier_sum = 0
+    for i in tier_nums:
+        tier_sum += i
+
+    # If the number of pokemon isn't correct, add the difference to B-tier
+    # This is very inelegant, but this works for now
+    if tier_sum < length:
+        tier_nums[2] += length - tier_sum
+    
+    # Add the appropriate number of pokemon into each subarray
+    pokemon_no = 0
+    output = []
+    for i in tier_nums:
+        tier = []
+        j = 0
+        while j < i:
+            tier.append(df.loc[pokemon_no, 'Icon'])
+            pokemon_no += 1
+            j += 1
+        output.append(tier)
+
+    return output
