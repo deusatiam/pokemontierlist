@@ -42,3 +42,10 @@ a:link {
 a:visited{
 	color:Red;
 }	
+
+.Voting {
+	text-align:center;
+}
+.Pokemon2 {
+	float:right;
+}
