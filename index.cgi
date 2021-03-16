@@ -1,5 +1,6 @@
 #!/bin/python
 import cgi
+import functions as func
 
 print ('Content-type:text/html\n')
 print ('<head>')
@@ -20,12 +21,15 @@ print ('</div>')
 print ('<h1> Which pokeyman is better? </h1>')
 print ('<div class="Voting">')
 print ('<div class="Pokemon1>')
-print ('<h2> POKEMON#1NAME </h2>')
-print('<img src="POKEMONPICTUREFILE">')
+
+pokemon1, pokemon2 = func.get_pair()
+
+print ('<h2> ' + func.get_name(pokemon1) + ' </h2>')
+print('<img src="' + func.get_sugimori(pokemon1) + '">')
 print ('</div>')
 print ('<div class="Pokemon2>')
-print ('<h2> POKEMON#2NAME </h2>')
-print('<img src="POKEMONPICTUREFILE">')
+print ('<h2> ' + func.get_name(pokemon2) + ' </h2>')
+print('<img src="' + func.get_sugimori(pokemon2) + '">')
 print ('</div>')
 print ('</div>')
 print ('</body>')

@@ -42,7 +42,7 @@ def get_pair(csv = default_filepath):
     df = pd.read_csv(csv)
 
     # Prioritize pokemon with less votes by sorting
-    sort_csv(csv, "Votes")
+    sort_csv("Votes", csv)
 
     # Find the highest index to choose from for voting
     limit = int(df.shape[0]*selection_ratio)
