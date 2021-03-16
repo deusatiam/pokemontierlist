@@ -1,0 +1,51 @@
+* {
+	font-family:	"Comic Sans MS", "Comic Sans", cursive;
+}
+body {
+	background-color:#36393f;
+}
+h1 {
+	text-align:	center;
+	color:		white;
+	padding-top:	50px;
+}
+
+ul {
+	list-style-type: 	none;
+	margin: 		0;
+	padding-bottom: 	5px;
+	text-align: 		center;
+	font-size: 		200%;
+	background-color:	rgba(0, 0, 0, 0.5);
+	outline-color:		rgba(0, 0, 0, 0.5);
+	outline-style:		solid;
+	position:		fixed;
+	top:			0;
+	width:			100%;
+}
+
+li {
+	display: 		inline;
+	color:			white;
+}
+.navbar {
+	padding-top:		50px;
+}
+
+.active {
+	color:Cyan !important;
+}
+
+a:link {
+	color:Red;
+}
+a:visited{
+	color:Red;
+}	
+
+.Voting {
+	text-align:center;
+}
+.Pokemon2 {
+	float:right;
+}
