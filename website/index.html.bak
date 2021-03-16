@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Vote!</title>
+	<link href="style.css" rel="stylesheet" type="text/css">
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+  <link rel="icon" href="/favicon.ico" type="image/x-icon">
+  </head>
+  <body>
+    <ul>
+      <li><a class="active" href="cgi-scripts/index.cgi">Vote</a></li>
+      <li><a href="tierlist.html">Tier List</a></li>
+      <li><a href="about.html">About</a></li>
+    </ul>
+	<h1> Which pokeyman is better? </h1>
+  </body>
+</html>
