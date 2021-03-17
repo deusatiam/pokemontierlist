@@ -25,7 +25,7 @@ print ('<div class="Pokemon1">')
 pokemon1, pokemon2 = func.get_pair()
 
 print ('<h2> ' + func.get_name(pokemon1) + ' </h2>')
-print('<img src="' + func.get_sugimori(pokemon1) + '">')
+print('<img src="' + func.get_sugimori(pokemon1) + 'sstyle="width:300px;height:300px;"">')
 print ('</div>')
 print ('<div class="Pokemon2">')
 print ('<h2> ' + func.get_name(pokemon2) + ' </h2>')
