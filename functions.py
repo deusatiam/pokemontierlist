@@ -7,7 +7,7 @@ from random import randrange
 
 ### Variables ###
 # The filepath that the functions will default to in case they're not defined
-default_filepath = "resources/starter9.csv"
+default_filepath = "starter9.csv"
 # The percentage of low-voted pokemon that will be potentially selected from
 # High values increase selection randomness, low values promote low-voted pokemon to be selected
 selection_ratio = 0.2    
