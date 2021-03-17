@@ -33,24 +33,20 @@ poke_2_name = func.get_name(pokemon2)
 
 print ('<h2> ' + poke_1_name + ' </h2>')
 print ('<img src="' + func.get_sugimori(pokemon1) + '" style="width:300px;height:300px;">')
-print ('<form action=func.vote(pokemon1,pokemon2)>')
-print ('<input type="submit" value="Submit" name=' + poke_1_name + ' />') 
+print ('<form method="get"')
+print ('<input type="submit" value="Submit" name="1" />') 
 print ('</div>')
 print ('<div class="Pokemon2">')
 print ('<h2> ' + poke_2_name + ' </h2>')
 print ('<img src="' + func.get_sugimori(pokemon2) + '" style="width:300px;height:300px;">')
-print ('<form action=func.vote(pokemon2,pokemon1)>')
-print ('<input type="submit" value="Submit" name=' + poke_2_name + ' />') 
+print ('<input type="submit" value="Submit" name="2" />') 
 print ('</div>')
 
-'''
-if poke_1_name in form:
+if "1" in form:
     func.vote(pokemon1,pokemon2)
-elif poke_2_name in form:
+elif "2" in form:
     func.vote(pokemon2,pokemon1)
-else:
-    print("Error in cgi form.")
-'''
+
 print ('</div>')
 print ('</body>')
 print ('</html>')
