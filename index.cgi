@@ -2,8 +2,6 @@
 import cgi
 import functions as func
 
-form = cgi.FieldStorage()
-
 print ('Content-type:text/html\n')
 print ('<head>')
 print ('<meta charset="utf-8">')
@@ -24,6 +22,8 @@ print ('<h1> Which pokeyman is better? </h1>')
 print ('<h1> Please reload after voting! </h1>')
 print ('<div class="Voting">')
 print ('<div class="Pokemon1">')
+
+form = cgi.FieldStorage()
 
 pokemon1, pokemon2 = func.get_pair()
 
