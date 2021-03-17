@@ -39,7 +39,7 @@ print ('</div>')
 print ('<div class="Pokemon2">')
 print ('<h2> ' + poke_2_name + ' </h2>')
 print ('<img src="' + func.get_sugimori(pokemon2) + '" style="width:300px;height:300px;">')
-print ('<form method=post action=func.vote(pokemon2,pokemon1)>)
+print ('<form method=post action=func.vote(pokemon2,pokemon1)>')
 print ('<input type="submit" value="Submit" name=' + poke_2_name + ' />') 
 print ('</div>')
 
