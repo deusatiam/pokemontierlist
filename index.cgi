@@ -32,12 +32,12 @@ poke_2_name = func.get_name(pokemon2)
 
 print ('<h2> ' + poke_1_name + ' </h2>')
 print('<img src="' + func.get_sugimori(pokemon1) + '" style="width:300px;height:300px;">')
-<input type="submit" value="Submit" name=poke_1_name />
+print ('<input type="submit" value="Submit" name=' + poke_1_name + ' />') 
 print ('</div>')
 print ('<div class="Pokemon2">')
 print ('<h2> ' + poke_2_name + ' </h2>')
 print('<img src="' + func.get_sugimori(pokemon2) + '" style="width:300px;height:300px;">')
-<input type="submit" value="Submit" name=poke_2_name />
+print ('<input type="submit" value="Submit" name=' + poke_2_name + ' />') 
 print ('</div>')
 
 if poke_1_name in form:
