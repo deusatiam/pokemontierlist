@@ -2,6 +2,8 @@
 import cgi
 import functions as func
 
+form = cgi.FieldStorage()
+
 print ('Content-type:text/html\n')
 print ('<head>')
 print ('<meta charset="utf-8">')
@@ -25,15 +27,26 @@ print ('<div class="Pokemon1">')
 
 pokemon1, pokemon2 = func.get_pair()
 
-print ('<h2> ' + func.get_name(pokemon1) + ' </h2>')
+poke_1_name = func.get_name(pokemon1)
+poke_2_name = func.get_name(pokemon2)
+
+print ('<h2> ' + poke_1_name + ' </h2>')
 print('<img src="' + func.get_sugimori(pokemon1) + '" style="width:300px;height:300px;">')
-print ('<button id="Vote1" type="button" method="post" action="' + func.vote(pokemon1,pokemon2) + '"> Vote for me! </button>')
+<input type="submit" value="Submit" name=poke_1_name />
 print ('</div>')
 print ('<div class="Pokemon2">')
-print ('<h2> ' + func.get_name(pokemon2) + ' </h2>')
+print ('<h2> ' + poke_2_name + ' </h2>')
 print('<img src="' + func.get_sugimori(pokemon2) + '" style="width:300px;height:300px;">')
-print ('<button id="Vote2" type="button" method="post" action="' + func.vote(pokemon2,pokemon1) + '"> Vote for me! </button>')
+<input type="submit" value="Submit" name=poke_2_name />
 print ('</div>')
+
+if poke_1_name in form:
+    func.vote(pokemon1,pokemon2)
+elif poke_2_name in form:
+    func.vote(pokemon2,pokemon1)
+else:
+    print("Error in cgi form.")
+
 print ('</div>')
 print ('</body>')
 print ('</html>')
