@@ -42,10 +42,20 @@ a:link {
 a:visited{
 	color:Red;
 }	
-
+#Vote1{
+	background-color:	cyan;
+}
+#Vote2{
+	background-color:	red;
+}
 .Voting {
 	text-align:center;
 }
-.Pokemon2 {
-	float:right;
+.Pokemon1 {
+	float:		left;
+	padding-left:	30rem;
+}
+.Pokemon2{
+	float:		right;
+	padding-right:	30rem;
 }
